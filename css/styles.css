@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #d7ecff, #b3d7ff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+header {
+    background-color:darkgrey;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.main-title {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 4px solid #d7ecff;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.intro-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.intro-table th,
+.intro-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.intro-table th {
+    background-color:steelblue;
+    color: #fff;
+    text-align: left;
+}
+
+.intro-table td {
+    background-color: #f2f2f2;
+}
+
+.additional-info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.italic-text {
+    font-style: italic;
+    color: #178bff;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.larger-text {
+    font-size: 1.5rem;
+    color: #6a96ff;
+    font-weight: bold;
+}
+
+.search-engines {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.search-engines img {
+    width: 120px;
+    transition: transform 0.3s ease;
+}
+
+.search-engines img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
